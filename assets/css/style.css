@@ -10,7 +10,7 @@ body {
 }
 #main-header {
     height: 388px;
-    background: url("/assets/images/header-image-HUIDQP.jpg") center / contain no-repeat;
+    background: url("/assets/images/header-image-HUIDQP.jpg") center / cover no-repeat;
 }
 #header-overlay {
     width: 100%;
