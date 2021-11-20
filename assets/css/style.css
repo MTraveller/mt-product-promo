@@ -4,6 +4,7 @@
     padding: 0;
 }
 body {
+    background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -18,61 +19,163 @@ body {
     background-color: rgb(0 0 0 / 60%);
 }
 #header-overlay h1 {
-    font-size: 2.8rem;
+    font-size: 3.4rem;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
     padding: 8.5rem;
 }
+@media screen and (max-width: 1440px) {
+    #header-overlay h1 {
+        font-size: 3rem;
+        padding: 8.4rem;
+    }    
+}
+@media screen and (max-width: 1024px) {
+    #header-overlay h1 {
+        padding: 6.7rem;
+    }    
+}
+@media screen and (max-width: 768px) {
+    #header-overlay h1 {
+        font-size: 3rem;
+        padding: 5rem 8rem;
+    }    
+}
+@media screen and (max-width: 425px) {
+    #header-overlay h1 {
+        padding: 5.3rem 2rem;
+    }    
+}
+@media screen and (max-width: 375px) {
+    #header-overlay h1 {
+        padding: 6rem .5rem;
+        font-size: 2.4rem;
+    }    
+}
+@media screen and (max-width: 320px) {
+    #header-overlay h1 {
+        padding: 6.7rem .5rem;
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }    
+}
 nav ul {
     background-color: #000;
-    list-style: none;
     text-align: center;
     margin: 0;
     padding: 0;
 }
+ul {
+    list-style-type: none;
+}
 nav li {
     line-height: 4rem;
     font-size: 1.3rem;
-    text-transform: uppercase;
     letter-spacing: 1px;
-    display: inline-block;
     margin: 0 5rem;
     padding: 0 5rem;
 }
-nav li a {
-    color: #fff;
+@media screen and (min-width: 769px) {
+    nav li {
+        margin: 0 3rem;
+        padding: 0 3rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav li {
+        margin: 0 2rem;
+        padding: 0 2rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    nav li {
+        margin: 0 1rem;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 375px) {
+    nav li {
+        font-size: 1rem;
+    }
+}
+li {
+    display: inline-block;
 }
 li a {
+    text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+}
+@media screen and (max-width: 425px) {
+    li a {
+        letter-spacing: 1px;
+    }    
 }
 main {
-    padding: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem 5rem;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1440px) {
     main {
-        margin: 0 15rem;
+        width: 100%;
+        margin: 2rem auto;
+        padding: 2rem 2rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    main {
+        padding: 2rem 0;
     }
 }
 article{
     margin: 1rem;
     padding: 1rem;
 }
+@media screen and (max-width: 425px) {
+    article {
+        margin: 1rem 0;
+    }
+}
 article > header {
-    max-width: 600px;
+    max-width: 60%;
     margin: 0 auto 2rem;
 }
+@media screen and (max-width: 768px) {
+    article > header {
+        max-width: 100%;
+    }
+}
 header > h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-align: center;
     margin-bottom: 1rem;
+}
+@media screen and (max-width: 425px) {
+    header > h2 {
+        font-size: 2.2rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    header > h2 {
+        font-size: 2rem;
+    }
 }
 section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    padding: 1rem 0;
+    padding: .2rem 0 1rem;
     gap: 1rem;
+}
+section > h2 {
+    grid-column: 1 / -1;
+    padding: 1rem;
+    border-top-style: solid;
+    text-align: center;
+    font-weight: 500;
 }
 @media screen and (max-width: 480px) {
     section {
@@ -82,4 +185,110 @@ section {
 figure img, figure video {
     width: 100%;
     height: auto;
+}
+article > span, footer > a {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    padding: .6rem 1rem;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.8rem;
+    letter-spacing: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+@media screen and (max-width: 425px) {
+    article > span {
+        letter-spacing: 3px;
+        font-size: 1.2rem;
+    }   
+}
+@media screen and (max-width: 375px) {
+    article > span {
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+    }   
+}
+footer > a {
+    width: 70%;
+    height: 8rem;
+    margin-top: 3rem;
+    line-height: 7rem;
+    font-size: 2rem;
+    border-radius: 60% 0%;
+    transform: skew(338deg, 0deg);
+}
+@media screen and (max-width: 768px) {
+    footer > a {
+        width: 100%;
+    }    
+}
+@media screen and (max-width: 425px) {
+    footer > a {
+        width: 86%;
+        height: 6rem;
+        line-height: 5rem;
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }    
+}
+@media screen and (max-width: 375px) {
+    footer > a {
+        font-size: 1rem;
+    }    
+}
+#main-footer {
+    background-color: black;
+    color: #ffffff;
+    height: 60px;
+    padding: 0rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+}
+@media screen and (max-width: 425px) {
+    #main-footer {
+        grid-template-columns: 40% 60%;
+    }    
+}
+#main-footer ul {
+    text-align: right;
+}
+#main-footer li {
+    margin: 0 .5rem;
+    padding: 0 .5rem;
+    font-size: .8rem;
+}
+@media screen and (max-width: 425px) {
+    #main-footer {
+        padding: 0 1rem;
+    }
+    #main-footer p {
+        font-size: .8rem;
+    }
+    #main-footer li {
+        margin: 0 .2rem;
+        padding: 0;
+    }
+    #main-footer li a {
+        text-transform: capitalize;
+        margin: 0 .2rem;
+        padding: 0;
+    }    
+}
+@media screen and (max-width: 425px) {
+    #main-footer {
+        grid-template-columns: 40% 60%;
+    }  
+}
+@media screen and (max-width: 320px) {
+    #main-footer {
+        grid-template-columns: 32% 68%;
+    }  
 }
