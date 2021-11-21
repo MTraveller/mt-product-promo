@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+img {
+    width: 100%;
+    height: auto;
+}
 body {
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
@@ -123,7 +127,7 @@ li a {
 }
 main {
     width: 80%;
-    margin: 2rem auto;
+    margin: 2rem auto 8rem;
     padding: 2rem 5rem;
 }
 @media screen and (max-width: 1440px) {
@@ -138,7 +142,7 @@ main {
         padding: 2rem 0;
     }
 }
-article{
+article {
     margin: 1rem;
     padding: 1rem;
 }
@@ -171,14 +175,62 @@ header > h2 {
         font-size: 2rem;
     }
 }
-section {
+#home #top-section {
+    margin: 0 0 10rem;
+    text-align: center;
+}
+#home #top-section p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+#home section h2 {
+    margin: 2rem 0;
+    padding: 1rem;
+    font-size: 2.4rem;
+}
+#home article {
+    padding: 2rem;
+}
+#home #top-content {
+    display: grid;
+    grid-template-columns: 58% 38%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 45px;
+    grid-row-gap: 0px;
+    align-items: center;
+    margin: 0 2rem;
+    padding: 4rem 2rem;
+}
+#home #bottom-content {
+    display: grid;
+    grid-template-columns: 38% 58%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 45px;
+    grid-row-gap: 0px;
+    align-items: center;
+    margin: 0 2rem;
+    padding: 4rem 2rem;
+}
+#home h3, #home article > div p {
+    text-align: left;
+    margin: 0 0 1.6rem;
+}
+#home #top-content h3, #home #bottom-content h3 {
+    font-size: 1.6rem;
+}
+#home #top-content p, #home #bottom-content p {
+    font-size: 1.2rem;
+}
+#images section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     padding: .2rem 0 1rem;
     gap: 1rem;
 }
-section > h2 {
+#images section > h2 {
     grid-column: 1 / -1;
     padding: 1rem;
     border-top-style: solid;
@@ -186,17 +238,30 @@ section > h2 {
     font-weight: 500;
 }
 @media screen and (max-width: 480px) {
-    section {
+    #images section {
         grid-template-columns: 1fr;
     }
 }
-figure img, figure video {
+#images figure img, #images figure video {
     width: 100%;
     height: auto;
 }
 figcaption {
     text-align: center;
     margin: 1rem 0 2rem;
+}
+#home section div {
+    margin: 3rem 0;
+}
+div {
+    text-align: center;
+}
+#home div a {
+    margin: 0 3rem;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 60px;
 }
 article > span, footer > a {
     display: block;
@@ -303,4 +368,17 @@ footer > a {
     #main-footer {
         grid-template-columns: 32% 68%;
     }  
+}
+table {
+    margin: 1rem auto 2rem;
+    border-spacing: 15px;
+}
+td {
+    padding: 1.2rem 1.4rem;
+    text-align: center;
+    border: 1px #c4c4c4 solid;
+    border-radius: 5px;
+}
+td.emtpy-td {
+    border: none;
 }
