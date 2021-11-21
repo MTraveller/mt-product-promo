@@ -11,6 +11,14 @@ body {
 }
 #main-header {
     height: 388px;
+}
+#home #main-header { /* header image for home */
+    background: url("/assets/images/header-image-OKDQWS.jpg") center / cover no-repeat;
+}
+#images #main-header { /* header image for images */
+    background: url("/assets/images/header-image-HUIDQP.jpg") center / cover no-repeat;
+}
+#contact #main-header { /* header image for contact */
     background: url("/assets/images/header-image-HUIDQP.jpg") center / cover no-repeat;
 }
 #header-overlay {
@@ -185,6 +193,10 @@ section > h2 {
 figure img, figure video {
     width: 100%;
     height: auto;
+}
+figcaption {
+    text-align: center;
+    margin: 1rem 0 2rem;
 }
 article > span, footer > a {
     display: block;
