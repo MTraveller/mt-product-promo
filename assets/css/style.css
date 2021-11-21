@@ -176,7 +176,7 @@ header > h2 {
     }
 }
 #home #top-section {
-    margin: 0 0 10rem;
+    margin: 0 0 5rem;
     text-align: center;
 }
 #home #top-section p {
@@ -213,6 +213,27 @@ header > h2 {
     margin: 0 2rem;
     padding: 4rem 2rem;
 }
+@media screen and (max-width: 768px) {
+    #top-content section, #top-bottom figure {
+        margin-bottom: 2rem;
+    }
+    #home #top-content, #home #bottom-content {
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 0 2rem;
+    }
+    #bottom-content figure {
+        order: 2;
+    }
+    #bottom-content section {
+        order: 1;
+    }
+}
+@media screen and (max-width: 425px) {
+    #home #top-content, #home #bottom-content {
+    padding: 0;
+    }
+}
 #home h3, #home article > div p {
     text-align: left;
     margin: 0 0 1.6rem;
@@ -242,9 +263,20 @@ header > h2 {
         grid-template-columns: 1fr;
     }
 }
-#images figure img, #images figure video {
+figure img, figure video {
     width: 100%;
     height: auto;
+}
+@media screen and (max-width: 768px) {
+    #home #top-content img, #home #bottom-content img {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #home #top-section video {
+        width: 940px;
+        height: 530px;
+    }
 }
 figcaption {
     text-align: center;
@@ -262,6 +294,13 @@ div {
     border-radius: 5px;
     text-decoration: none;
     line-height: 60px;
+}
+@media screen and (max-width: 425px) {
+    #home div a {
+        margin: 1rem 3rem;
+        padding: 0 1rem;
+        display: block;
+    }
 }
 article > span, footer > a {
     display: block;
@@ -372,6 +411,11 @@ footer > a {
 table {
     margin: 1rem auto 2rem;
     border-spacing: 15px;
+}
+@media screen and (max-width: 425px) {
+    table {
+        border-spacing: 10px;
+    }
 }
 td {
     padding: 1.2rem 1.4rem;
