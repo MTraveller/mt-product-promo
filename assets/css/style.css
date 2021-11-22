@@ -19,6 +19,9 @@ body {
     font-size: 16px;
     font-weight: 500;
 }
+h1, h2, ul, #top-section, figcaption, footer, div, span, td, a {
+    text-align: center;
+}
 #main-header {
     height: 388px;
 }
@@ -37,13 +40,12 @@ body {
     background-color: rgb(0 0 0 / 60%);
 }
 #message-sent #header-overlay {
-    background-color: rgb(0 0 0 / 1);
+    background-color: rgb(0 0 0);
 }
 #header-overlay h1 {
     font-size: 3.4rem;
     text-transform: uppercase;
     color: #fff;
-    text-align: center;
     padding: 8.5rem;
 }
 @media screen and (max-width: 1440px) {
@@ -94,13 +96,6 @@ body {
     }    
 }
 @media screen and (max-width: 320px) {
-    #home #header-overlay h1 {
-        padding: 6.7rem .5rem;
-        font-size: 2rem;
-        letter-spacing: 2px;
-    }    
-}
-@media screen and (max-width: 320px) {
     #header-overlay h1 {
         padding: 6.7rem .5rem;
         font-size: 2rem;
@@ -112,7 +107,6 @@ nav {
 }
 nav ul {
     margin: 0 auto;
-    text-align: center;
 }
 nav li {
     line-height: 2rem;
@@ -212,7 +206,6 @@ article {
 }
 @media screen and (max-width: 320px) {
     #contact article {
-        margin: 0;
         padding: .5rem;
     }
 }
@@ -235,7 +228,6 @@ article > header {
 }
 header > h2 {
     font-size: 2.8rem;
-    text-align: center;
     margin-bottom: 1rem;
 }
 @media screen and (max-width: 425px) {
@@ -250,7 +242,6 @@ header > h2 {
 }
 #home #top-section {
     margin: 0 0 5rem;
-    text-align: center;
 }
 #home #top-section p {
     width: 80%;
@@ -347,7 +338,6 @@ header > h2 {
     grid-column: 1 / -1;
     padding: 1rem;
     border-top-style: solid;
-    text-align: center;
     font-weight: 500;
 }
 @media screen and (max-width: 480px) {
@@ -376,14 +366,10 @@ figure img, figure video {
     }
 }
 figcaption {
-    text-align: center;
     margin: 1rem 0 2rem;
 }
 #home section div {
     margin: 3rem 0;
-}
-div {
-    text-align: center;
 }
 #home div a {
     margin: 0 3rem;
@@ -407,7 +393,6 @@ article > span, footer > a {
     margin: 0 auto;
     color: white;
     background-color: black;
-    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1.8rem;
@@ -456,7 +441,6 @@ footer > a {
     }    
 }
 #contact article > footer {
-    text-align: center;
     padding: 5rem 0 0;
     grid-column: 1 / -1;
 }
@@ -472,6 +456,9 @@ footer > a {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     
+}
+#main-footer p {
+    text-align: left;
 }
 @media screen and (max-width: 425px) {
     #main-footer {
@@ -528,7 +515,6 @@ table {
 }
 td {
     padding: 1.2rem 1.4rem;
-    text-align: center;
     border: 1px #c4c4c4 solid;
     border-radius: 5px;
 }
@@ -576,6 +562,5 @@ input, textarea {
     min-width: 300px!important;
 }
 #message-sent h2 {
-        text-align: center;
         line-height: 2.5rem;
 }
