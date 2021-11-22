@@ -305,6 +305,11 @@ figure img, figure video {
     width: 100%;
     height: auto;
 }
+@media screen and (max-width: 425px) {
+    #home figure video {
+        padding: 0 1rem;
+    }
+}
 @media screen and (max-width: 768px) {
     #home #top-content img, #home #bottom-content img {
         width: 80%;
