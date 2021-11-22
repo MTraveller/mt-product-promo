@@ -572,3 +572,7 @@ input, textarea {
     margin: 0 auto!important;
     min-width: 300px!important;
 }
+#message-sent h2 {
+        text-align: center;
+        line-height: 2.5rem;
+}
