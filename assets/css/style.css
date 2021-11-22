@@ -122,11 +122,6 @@ nav li a {
     border: 10px solid #000000;
     border-radius: 15px;
 }
-@media screen and (max-wdith: 425px) {
-    nav li a {
-        width: auto;
-    }    
-}
 @media screen and (min-width: 769px) {
     nav li {
         padding: 0 3rem;
