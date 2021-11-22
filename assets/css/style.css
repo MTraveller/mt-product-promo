@@ -181,6 +181,14 @@ article {
     margin: 1rem;
     padding: 1rem;
 }
+#contact article {
+    margin: 1rem 5rem;
+    padding: 1rem 5rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr;
+    gap: 20px 0;
+}
 @media screen and (max-width: 425px) {
     article {
         margin: 1rem 0;
@@ -189,6 +197,9 @@ article {
 article > header {
     max-width: 60%;
     margin: 0 auto 2rem;
+}
+#contact article > header {
+    grid-column: 1 / -1;
 }
 @media screen and (max-width: 768px) {
     article > header {
@@ -283,6 +294,12 @@ header > h2 {
     justify-content: center;
     padding: .2rem 0 1rem;
     gap: 1rem;
+}
+#contact section {
+    padding-right: 8rem;
+}
+#contact aside {
+    padding: 0 3rem;
 }
 #images section > h2 {
     grid-column: 1 / -1;
@@ -396,6 +413,14 @@ footer > a {
         font-size: 1rem;
     }    
 }
+#contact article > footer {
+    text-align: center;
+    padding: 5rem 0 0;
+    grid-column: 1 / -1;
+}
+#contact footer > h2 {
+    margin-bottom: 2rem;
+}
 #main-footer {
     background-color: black;
     color: #ffffff;
@@ -467,4 +492,7 @@ td {
 }
 td.emtpy-td {
     border: none;
+}
+#instagram-embed-0 {
+    margin: 0 auto!important;
 }
