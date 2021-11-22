@@ -45,7 +45,13 @@ body {
 }
 @media screen and (max-width: 1024px) {
     #header-overlay h1 {
-        padding: 6.7rem;
+        padding: 6.7rem 14rem;
+    }    
+}
+@media screen and (max-width: 768px) {
+    #home #header-overlay h1 {
+        font-size: 3rem;
+        padding: 6.7rem 8rem;
     }    
 }
 @media screen and (max-width: 768px) {
@@ -55,14 +61,34 @@ body {
     }    
 }
 @media screen and (max-width: 425px) {
-    #header-overlay h1 {
+    #home #header-overlay h1 {
+        font-size: 2.8rem;
         padding: 5.3rem 2rem;
+    }    
+}
+@media screen and (max-width: 425px) {
+    #header-overlay h1 {
+        font-size: 2.8rem;
+        padding: 5.3rem 2rem;
+    }    
+}
+@media screen and (max-width: 375px) {
+    #home #header-overlay h1 {
+        padding: 7.4rem .5rem;
+        font-size: 2.4rem;
     }    
 }
 @media screen and (max-width: 375px) {
     #header-overlay h1 {
         padding: 6rem .5rem;
         font-size: 2.4rem;
+    }    
+}
+@media screen and (max-width: 320px) {
+    #home #header-overlay h1 {
+        padding: 6.7rem .5rem;
+        font-size: 2rem;
+        letter-spacing: 2px;
     }    
 }
 @media screen and (max-width: 320px) {
@@ -214,13 +240,11 @@ header > h2 {
     padding: 4rem 2rem;
 }
 @media screen and (max-width: 768px) {
-    #top-content section, #top-bottom figure {
-        margin-bottom: 2rem;
-    }
     #home #top-content, #home #bottom-content {
         grid-template-columns: 1fr;
+        grid-row-gap: 45px;
         margin: 0;
-        padding: 0 2rem;
+        padding: 2rem;
     }
     #bottom-content figure {
         order: 2;
