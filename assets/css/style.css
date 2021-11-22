@@ -155,6 +155,10 @@ li a:hover {
     background-color: #ffffff;
     color: #000000;
 }
+#home nav .home, #images nav .images, #contact nav .contact {
+    background-color: #ffffff;
+    color: #000000;    
+}
 @media screen and (max-width: 425px) {
     li a {
         letter-spacing: 1px;
@@ -191,6 +195,23 @@ article {
     grid-template-columns: 60% 40%;
     grid-template-rows: 1fr;
     gap: 20px 0;
+}
+@media screen and (max-width: 768px) {
+    #contact article {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 425px) {
+    #contact article {
+        margin: 0;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    #contact article {
+        margin: 0;
+        padding: .5rem;
+    }
 }
 @media screen and (max-width: 425px) {
     article {
@@ -301,8 +322,23 @@ header > h2 {
 #contact section {
     padding-right: 8rem;
 }
+@media screen and (max-width: 1024px) {
+    #contact section {
+        padding-right: 0;
+    }    
+}
 #contact aside {
     padding: 0 3rem;
+}
+@media screen and (max-width: 1024px) {
+    #contact aside {
+        padding: 0 0 0 3rem;
+    }    
+}
+@media screen and (max-width: 768px) {
+    #contact aside {
+        padding: 0;
+    }    
 }
 #images section > h2 {
     grid-column: 1 / -1;
@@ -499,7 +535,7 @@ td.emtpy-td {
 #contact h3 {
     font-size: 1.6rem;
 }
-#contact p {
+#contact section > p {
     font-size: 1.1rem;
 }
 input {
@@ -511,7 +547,7 @@ input#lname {
     float: right;
 }
 input[type="text"], textarea {
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem;
 }
 input[type="submit"] {
     width: 100%;
@@ -534,4 +570,5 @@ input, textarea {
 }
 #instagram-embed-0 {
     margin: 0 auto!important;
+    min-width: 300px!important;
 }
