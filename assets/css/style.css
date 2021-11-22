@@ -496,6 +496,12 @@ td {
 td.emtpy-td {
     border: none;
 }
+#contact h3 {
+    font-size: 1.6rem;
+}
+#contact p {
+    font-size: 1.1rem;
+}
 input {
     display: inline-block;
     width: 48%;
@@ -516,6 +522,15 @@ input[type="submit"] {
 input, textarea {
     border: 2px solid #2196f3;
     border-radius: 5px;
+}
+#contact h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+#contact h5 {
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+    font-size: 1rem;
 }
 #instagram-embed-0 {
     margin: 0 auto!important;
