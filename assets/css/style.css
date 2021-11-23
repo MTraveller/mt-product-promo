@@ -535,8 +535,12 @@ input {
 input#lname {
     float: right;
 }
-input[type="text"], textarea {
+input[type="text"], input[type="email"], textarea {
     padding: 1rem;
+}
+input#email {
+    width: 100%;
+    margin-top: 0;
 }
 input[type="submit"] {
     width: 100%;
