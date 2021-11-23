@@ -35,9 +35,13 @@ h1, h2, ul, #top-section, figcaption, footer, div, span, td, a {
     background: url("/assets/images/header-image-NJKCAS.jpg") center / cover no-repeat;
 }
 #header-overlay {
-    width: 100%;
-    height: 324px;
+    height: 320px;
     background-color: rgb(0 0 0 / 60%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-content: center;
+    align-items: center;
 }
 #message-sent #header-overlay {
     background-color: rgb(0 0 0);
@@ -46,58 +50,24 @@ h1, h2, ul, #top-section, figcaption, footer, div, span, td, a {
     font-size: 3.4rem;
     text-transform: uppercase;
     color: #fff;
-    padding: 8.5rem;
 }
 @media screen and (max-width: 1440px) {
     #header-overlay h1 {
         font-size: 3rem;
-        padding: 8.4rem;
-    }    
-}
-@media screen and (max-width: 1024px) {
-    #header-overlay h1 {
-        padding: 6.7rem 14rem;
-    }    
-}
-@media screen and (max-width: 768px) {
-    #home #header-overlay h1 {
-        font-size: 3rem;
-        padding: 6.7rem 8rem;
-    }    
-}
-@media screen and (max-width: 768px) {
-    #header-overlay h1 {
-        font-size: 3rem;
-        padding: 5rem 8rem;
     }    
 }
 @media screen and (max-width: 425px) {
-    #home #header-overlay h1 {
+    #header-overlay h1, #home #header-overlay h1, #contact #header-overlay h1 {
         font-size: 2.8rem;
-        padding: 5.3rem 2rem;
-    }    
-}
-@media screen and (max-width: 425px) {
-    #header-overlay h1 {
-        font-size: 2.8rem;
-        padding: 5.3rem 2rem;
     }    
 }
 @media screen and (max-width: 375px) {
-    #home #header-overlay h1 {
-        padding: 7.4rem .5rem;
-        font-size: 2.4rem;
-    }    
-}
-@media screen and (max-width: 375px) {
-    #header-overlay h1 {
-        padding: 6rem .5rem;
+    #header-overlay h1, #home #header-overlay h1, #contact #header-overlay h1 {
         font-size: 2.4rem;
     }    
 }
 @media screen and (max-width: 320px) {
-    #header-overlay h1 {
-        padding: 6.7rem .5rem;
+    #header-overlay h1, #home #header-overlay h1, #contact #header-overlay h1 {
         font-size: 2rem;
         letter-spacing: 2px;
     }    
