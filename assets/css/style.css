@@ -66,6 +66,12 @@ h3, h4, h4, h6 {
 }
 img {
     width: 100%;
+    max-width: 430px;
+    height: auto;
+}
+video {
+    width: 100%;
+    max-width: 940px;
     height: auto;
 }
 ul {
@@ -371,9 +377,8 @@ header > h2 {
         grid-template-columns: 1fr;
     }
 }
-figure img, figure video {
-    width: 100%;
-    height: auto;
+figure {
+    text-align: center;
 }
 @media screen and (max-width: 425px) {
     #home figure video {
