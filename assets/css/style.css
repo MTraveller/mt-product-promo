@@ -91,13 +91,13 @@ h1, h2, ul, #top-section, figcaption, footer, div, span, td, a {
     height: 388px;
 }
 #home #main-header { /* header image for home */
-    background: url("assets/images/header-image-OKDQWS-lossy.jpg") center / cover no-repeat;
+    background: url("../images/header-image-OKDQWS-lossy.jpg") center / cover no-repeat;
 }
 #images #main-header { /* header image for images */
-    background: url("assets/images/header-image-HUIDQP-lossy.jpg") center / cover no-repeat;
+    background: url("../images/header-image-HUIDQP-lossy.jpg") center / cover no-repeat;
 }
 #contact #main-header { /* header image for contact */
-    background: url("assets/images/header-image-NJKCAS-lossy.jpg") center / cover no-repeat;
+    background: url("../images/header-image-NJKCAS-lossy.jpg") center / cover no-repeat;
 }
 #header-overlay {
     height: 320px;
