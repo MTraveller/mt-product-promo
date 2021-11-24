@@ -26,13 +26,15 @@ The website has a header with a different background image for each page; the he
 
 The website incorporates a simple CSS highlight method to highlight the current page a user is on for better usability.
 
-The body of the website utilizes the CSS grid property for cleaner code and to make use of the whole column, with the "grid-column" property set to 1 / -1, which makes the element take up 100% of the column area.
-
-![GRID](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-element-100-percent.jpg)
+![Navbar](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/navbar.jpg)
 
 The website uses tags such as `<header>` `<nav>` `<main>` `<article>` `<section>` `<aside>` `<footer>` `<div>` `<form>` `<input>` `<table>` `<tbody>` `<tr>` `<td>` `<span>` `<h1>` `<h2>` `<h3>` `<h4>` and `<p>`.
 
 The "Keep It Simple" mindset heavily influenced the development of the website without any use of JS and unnecessary tags, i.e., divs.
+
+The body of the website utilizes the CSS grid property for cleaner code and to make use of the whole column, with the "grid-column" property set to 1 / -1, which makes the element take up 100% of the column area.
+
+![GRID](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-element-100-percent.jpg)
 
 Images live inside the <picture> tag within the <figure> tag and use the next-gen images such as avif and webp with a fallback to png or jpg. The header does not utilize the <picture> tag as I set the background image with CSS instead merely for educational purposes. If I wanted to use next-gen images, I would use the Modernizr JS library to check which features the visitor's browser has. Then dynamically inject classes based on the information retrieved and target those classes with CSS for either next-gen or classic image types.
 
