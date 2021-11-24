@@ -4,7 +4,7 @@
 
 Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/index.html "The Website")
 
-![Mockup](/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/the-metcon-7-website-mockup.jpg)
+![Mockup](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/the-metcon-7-website-mockup.jpg)
 
 The Metcon 7 project is a website promoting one specific product targeted toward women between 20-38 years old who do fitness, bodybuilding, or Crossfit training and know the importance of and appreciate quality training shoes. Based on the real world, Nike Metcon 7 training shoes. The website showcases the shoes with videos and images and leads the visitor to the product page to purchase the shoes.
 
@@ -22,13 +22,13 @@ For wireframing this project, mockflow.com was used to design the initial layout
 
 The website has a header with a different background image for each page; the header has a dark overlay color set to 60% to make the h1 heading stand out. Below the header is the navbar with 3-links, each highlight on hover and current page.
 
-![Header](/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/header.jpg)
+![Header](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/header.jpg)
 
 The website incorporates a simple CSS highlight method to highlight the current page a user is on for better usability.
 
 The body of the website utilizes the CSS grid property for cleaner code and to make use of the whole column, with the "grid-column" property set to 1 / -1, which makes the element take up 100% of the column area.
 
-![GRID](/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-element-100-percent.jpg)
+![GRID](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-element-100-percent.jpg)
 
 The website uses tags such as `<header>` `<nav>` `<main>` `<article>` `<section>` `<aside>` `<footer>` `<div>` `<form>` `<input>` `<table>` `<tbody>` `<tr>` `<td>` `<span>` `<h1>` `<h2>` `<h3>` `<h4>` and `<p>`.
 
