@@ -30,7 +30,7 @@ The body of the website utilizes the CSS grid property for cleaner code and to m
 
 ![GRID](/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-element-100-percent.jpg)
 
-The website uses tags such as <header>, <nav>, <main>, <article>, <section>, <aside>, <footer>, <div>, <form>, <input>, <table>, <tbody>, <tr>, <td>, <span>, <h1>, <h2>, <h3>, <h4> and <p>.
+The website uses tags such as `<header>` `<nav>` `<main>` `<article>` `<section>` `<aside>` `<footer>` `<div>` `<form>` `<input>` `<table>` `<tbody>` `<tr>` `<td>` `<span>` `<h1>` `<h2>` `<h3>` `<h4>` and `<p>`.
 
 The "Keep It Simple" mindset heavily influenced the development of the website without any use of JS and unnecessary tags, i.e., divs.
 
