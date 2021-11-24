@@ -1,4 +1,5 @@
-# The First Project Portfolio of Code Institute Milestone by Mahmoud Tantouri
+My journey to becoming a full stack developer
+# The First Project Portfolio of Code Institute Milestone
 
 ## The Metcon 7 For Women
 
@@ -17,6 +18,13 @@ The website targets women who are into fitness and Crossfit and are looking to u
 ## The Wireframing
 
 For wireframing this project, mockflow.com was used to design the initial layout for desktop and mobile-sized screens. The website includes features like images, videos, tables, forms, and embeds.
+
+### Desktop Home Page
+![Home-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/home-page.png)
+### Desktop Images Page
+![Images-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/images-page.png)
+### Desktop Contact Page
+![Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/contact-page.png)
 
 ## Website structure
 
