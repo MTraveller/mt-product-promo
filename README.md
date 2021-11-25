@@ -12,19 +12,19 @@ The Metcon 7 project is a website promoting one specific product targeted toward
 
 For wireframing this project, mockflow.com was used to design the initial layout for desktop and mobile-sized screens. The website includes features like images, videos, tables, forms, and embeds.
 
-| Desktop           | Mobile  |
-|:-------------:| :-----:|
+| Desktop | Mobile |
+|:-------------:|:-----:|
 | [Home-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/home-page.png) | [Home-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/home-mobile.png) |
 | [Images-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/images-page.png) | [Images-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/images-mobile.png) |
 | [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/contact-page.png) | [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/contact-mobile.png) |
 
 ### Website Features
 
-The website has a header with a different background image for each page; the header has a dark overlay color set to 60% to make the h1 heading stand out. Below the header is the navbar with 3-links, each highlight on hover and current page.
+The website has a header with a different background image for each page; the header has a dark overlay color set to 60% to make the h1 heading stand out.
 
 ![Header](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/header.jpg)
 
-The website incorporates a simple CSS highlight method to highlight the current page a user is on for better usability.
+Below the header is the navbar with 3-links, each highlight on hover and current page. The website incorporates a simple CSS highlight method to highlight the current page a user is on for better usability.
 
 ![Navbar](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/navbar.jpg)
 
