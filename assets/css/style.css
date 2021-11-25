@@ -591,6 +591,11 @@ input[placeholder], textarea[placeholder] {
     font-weight: 500;
     font-size: 1rem;
 }
+.calltoaction:hover {
+    color: #ffffff!important;
+    background-color: #337a88!important;
+    border-color: #337a88!important;
+}
 #instagram-embed-0 {
     margin: 0 auto!important;
     min-width: 300px!important;
