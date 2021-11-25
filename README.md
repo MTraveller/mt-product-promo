@@ -8,6 +8,20 @@ Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/i
 
 The Metcon 7 project is a website promoting one specific product targeted toward women between 20-38 years old who do fitness, bodybuilding, or CrossFit training and know the importance of and appreciate quality training shoes. Based on the real world, Nike Metcon 7 training shoes. The website showcases the shoes with videos and images and leads the visitor to the product page to purchase the shoes.
 
+The homepage will greet the visitor with a big header and a headline containing a background image to understand what the website is all about quickly—the horizontal navbar just below the header, with spaced links for easy navigation.
+
+As the visitor scrolls down, a video appears showcasing the product with two calls to action, either going to the external shop page or the internal images page. The images page displays the product in more detail with snippets of text encouraging to purchase the product and leave an overall superior feeling.
+
+Below, these content blocks appear with snippets of text and images to continue the hype and build anticipation.
+
+Scrolling further down below the blocks of content, the visitor will reach the bottom. An "available sizes" table is displayed with a call to action yet again with a transparent goal to lead the visitor to the external product page to pick a size and purchase the product.
+
+The contact page features a contact form and a couple of bullet points speaking about the member benefits.
+
+A final Instagram post is embedded at the bottom of the page to build more trust and connect with the visitor on an inspiring level.
+
+A footer at the absolute bottom of all pages appears.
+
 ### The Wireframing
 
 For wireframing this project, mockflow.com was used to design the initial layout for desktop and mobile-sized screens. The website includes features like images, videos, tables, forms, and embeds.
@@ -26,7 +40,7 @@ The website has a header with a different background image for each page; the he
 
 ![Header](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/header.jpg)
 
-Below the header is the navbar with 3-links identical on all pages for easy navigation, each highlight on hover and current page. The website incorporates a simple CSS highlight method to highlight the current page a user is on for better usability.
+The navbar with 3-links which on "hover" and the current page highlights. The website incorporates a simple CSS method to highlight the links.
 
 ![Navbar](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/navbar.jpg)
 
@@ -34,7 +48,7 @@ The website uses tags such as `<header>` `<nav>` `<main>` `<article>` `<section>
 
 The "Keep It Simple" mindset heavily influenced the development of the website without any use of JS and unnecessary tags, i.e., divs.
 
-The body of the website utilizes the CSS grid property for cleaner code and to make use of the whole column, with the "grid-column" property set to 1 / -1, which makes the element take up 100% of the column area.
+The website's content utilizes the CSS grid property for cleaner code and to make use of the whole column, with the "grid-column" property set to 1 / -1, which makes the element take up 100% of the column area.
 
 ![GRID](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-element-100-percent.jpg)
 
@@ -79,7 +93,7 @@ Adding a poster attribute to the `<video>` tag will fix this issue and show an i
 
 ### Table
 
-The home page has a simple table located at the bottom of the page and has overflow-x set to auto so that a scrollbar appears on mobile devices, which otherwise would add whitespace to the right of the page and not fill the whole browser width, as seen below.
+The simple table at the bottom of the page has overflow-x set to auto so that a scrollbar appears on mobile devices, which otherwise would add whitespace to the right of the page and not fill the whole browser width, as seen below.
 
 ![Overflow-x](https://github.com/MTraveller/mt-product-promo/blob/3b910be1e15c92c3a9f47bbf53ac4b96fc550662/rm-img/table-overflow-x-auto.jpg)
 
