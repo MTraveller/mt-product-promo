@@ -42,7 +42,7 @@ I cleaned up a couple of lines of CSS code after using the `grid layout module`,
 
 ![GRID2](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-for-less-css2.jpg)
 
-#### Critical CSS
+### Critical CSS
 
 I added critical CSS to the `<head>` of the HTML files inside the `<style>` tag to load the website quickly with minimal blocking time. I then removed the added CSS from the stylesheet style-minified.css to save even more and remove any dups.
 
@@ -52,7 +52,7 @@ Thanks to [Demian Renzulli](https://web.dev/defer-non-critical-css/) at web.dev 
 
 ![None Blocking CSS](https://github.com/MTraveller/mt-product-promo/blob/9be475909b456e4bf287779f002366a472445075/rm-img/style-css-load-minimal-blocking.jpg)
 
-#### Images
+### Images
 
 Images live inside the `<picture>` tag within the `<figure>` tag and use the next-gen images such as avif and webp with a fallback to png or jpg.
 
@@ -62,7 +62,7 @@ The header does not utilize the `<picture>` tag as I set the background image wi
 
 As for this project, I used only HTML and CSS except for the Instagram embed, which has JS in its embed code.
 
-#### Videos
+### Videos
 
 The video on the front page has a poster for two things;
 
@@ -75,13 +75,13 @@ The video on the front page has a poster for two things;
 
 Adding a poster attribute to the `<video>` tag will fix this issue and show an image for all screens for consistency. The video on images.html does not have this issue because of the autoplay attribute set.
 
-#### Table
+### Table
 
 The home page has a simple table located at the bottom of the page and has overflow-x set to auto so that a scrollbar appears on mobile devices, which otherwise would add whitespace to the right of the page and not fill the whole browser width, as seen below.
 
 ![Overflow-x](https://github.com/MTraveller/mt-product-promo/blob/3b910be1e15c92c3a9f47bbf53ac4b96fc550662/rm-img/table-overflow-x-auto.jpg)
 
-#### Form
+### Form
 
 On the contact.html page, there's a form, nothing special; a bit of styling to make it look appropriate and aligned with the website as a whole. The `<input>`s do not have labels; instead, use the placeholder attribute to make it look smarter and cleaner.
 
@@ -89,7 +89,7 @@ On the contact.html page, there's a form, nothing special; a bit of styling to m
 |:--------:|:--------:|
 | ![FORM](https://github.com/MTraveller/mt-product-promo/blob/33b3ebc6939230be1ec05cb7a227544aadebdf9b/rm-img/form-contact-page-image.jpg) | ![PLACEHOLDER](https://github.com/MTraveller/mt-product-promo/blob/613b94f2b76c3da4dd093257286d1ec661ae4995/rm-img/form-placeholders.jpg) |
 
-#### Footer
+### Footer
 
 The footer is very simple, made with a copyright symbol and the website name on the left. To the right, there are three links wrapped within a `<ul>` just as the navbar but does not highlight the current page.
 
@@ -109,9 +109,10 @@ I took all content, images, and videos for the product from the brand's actual p
 
 I have no right to any content, images, and videos used for this project. All ownership of these assets is of www.nike.com only.
 
-#### Tests
+### Tests
 
-##### Lighthouse Mobile
+Lighthouse Mobile
+
 | Home Page | Images Page | Contact Page |
 |:--------:|:--------:|:--------:|
 | ![Home-Page](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/home-lighthouse.jpg) | ![Images-Page](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/images-lighthouse.jpg) | ![Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/contact-lighthouse.jpg) |
@@ -120,7 +121,7 @@ Digging further, Chrome's dev tool states there are no unused CSS declarations.
 
 ![Declarations](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/unused-declarations.jpg)
 
-#### Bugs
+### Bugs
 
 I mistakenly added loading and alt attributes to `<source>` following the writing as I went on in the moment of heat writing the HTML code. When I checked with the HTML validator, I got errors, as seen below.
 
@@ -131,6 +132,8 @@ I removed the attributes and voilá, errors gone. Having these attributes in `<s
 ## Validators
 
 ### HTML
+
+No errors are displayed when passed through the official W3C validator of all three pages. The only exception is the embed code on the contact page as described below.
 
 [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Findex.html "https://validator.w3.org")
 
