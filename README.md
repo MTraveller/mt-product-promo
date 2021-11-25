@@ -13,7 +13,7 @@ The Metcon 7 project is a website promoting one specific product targeted toward
 For wireframing this project, mockflow.com was used to design the initial layout for desktop and mobile-sized screens. The website includes features like images, videos, tables, forms, and embeds.
 
 | Desktop | Mobile |
-|:-------------:|:-----:|
+|:--------:|:--------:|
 | [Home-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/home-page.png) | [Home-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/home-mobile.png) |
 | [Images-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/images-page.png) | [Images-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/images-mobile.png) |
 | [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/contact-page.png) | [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/contact-mobile.png) |
@@ -42,7 +42,7 @@ I cleaned up a couple of lines of CSS code after using the `grid layout module`,
 
 ![GRID2](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-for-less-css2.jpg)
 
-#### Critical CSS
+### Critical CSS
 
 I added critical CSS to the `<head>` of the HTML files inside the `<style>` tag to load the website quickly with minimal blocking time. I then removed the added CSS from the stylesheet style-minified.css to save even more and remove any dups.
 
@@ -52,7 +52,7 @@ Thanks to [Demian Renzulli](https://web.dev/defer-non-critical-css/) at web.dev 
 
 ![None Blocking CSS](https://github.com/MTraveller/mt-product-promo/blob/9be475909b456e4bf287779f002366a472445075/rm-img/style-css-load-minimal-blocking.jpg)
 
-#### Images
+### Images
 
 Images live inside the `<picture>` tag within the `<figure>` tag and use the next-gen images such as avif and webp with a fallback to png or jpg.
 
@@ -62,7 +62,7 @@ The header does not utilize the `<picture>` tag as I set the background image wi
 
 As for this project, I used only HTML and CSS except for the Instagram embed, which has JS in its embed code.
 
-#### Videos
+### Videos
 
 The video on the front page has a poster for two things;
 
@@ -75,13 +75,13 @@ The video on the front page has a poster for two things;
 
 Adding a poster attribute to the `<video>` tag will fix this issue and show an image for all screens for consistency. The video on images.html does not have this issue because of the autoplay attribute set.
 
-#### Table
+### Table
 
 The home page has a simple table located at the bottom of the page and has overflow-x set to auto so that a scrollbar appears on mobile devices, which otherwise would add whitespace to the right of the page and not fill the whole browser width, as seen below.
 
 ![Overflow-x](https://github.com/MTraveller/mt-product-promo/blob/3b910be1e15c92c3a9f47bbf53ac4b96fc550662/rm-img/table-overflow-x-auto.jpg)
 
-#### Form
+### Form
 
 On the contact.html page, there's a form, nothing special; a bit of styling to make it look appropriate and aligned with the website as a whole. The `<input>`s do not have labels; instead, use the placeholder attribute to make it look smarter and cleaner.
 
@@ -89,7 +89,7 @@ On the contact.html page, there's a form, nothing special; a bit of styling to m
 |:--------:|:--------:|
 | ![FORM](https://github.com/MTraveller/mt-product-promo/blob/33b3ebc6939230be1ec05cb7a227544aadebdf9b/rm-img/form-contact-page-image.jpg) | ![PLACEHOLDER](https://github.com/MTraveller/mt-product-promo/blob/613b94f2b76c3da4dd093257286d1ec661ae4995/rm-img/form-placeholders.jpg) |
 
-#### Footer
+### Footer
 
 The footer is very simple, made with a copyright symbol and the website name on the left. To the right, there are three links wrapped within a `<ul>` just as the navbar but does not highlight the current page.
 
@@ -103,13 +103,15 @@ The website was produced with accessibility in mind and made sure the website fi
 
 For this project, I used [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=Explorer%20The%20Nike%20Metcon%207%20Training%20Shoes&preview.text_type=custom#standard-styles) Google font. Easy on the eye and pleasant to read. I decided to host the font locally for performance.
 
-### Content
+### Testings
 
-I took all content, images, and videos for the product from the brand's actual product page of their website. The author (I) of this project and the brand is not connected/affiliated or corporated with one another in any way, and all content, images, and videos are the brand's intellectual property only.
+Throughout the website development, I've done intensive testing in every possible way to spot and quickly, with no delay, correct the bugs as fast as possible. With every new feature or code added, I would go back and test. Test the old as the new, take a step back, contemplate, and do more testing, and the result is a clean, lightweight website that I am pleased with.
 
-I have no right to any content, images, and videos used for this project. All ownership of these assets is of www.nike.com only.
+Although I am currently pleased, it can always be better, like, for example, the navbar. Maybe making the navbar with GRID or Flexbox instead of using inline-block would make more sense.
 
-#### Tests
+Things like `align-content: space-around` or `justify-content: space-between` and `align-items: center` make life much easier and consistent on different devices.
+
+The `grid layout module` in CSS is fascinating and indeed worth exploring more in depth.
 
 Lighthouse Mobile
 
@@ -158,6 +160,10 @@ No errors are displayed when passed through the official W3C Jigsaw validator of
 ## Credits
 
 ### Content, Images, and Videos
+
+I took all content, images, and videos for the product from the brand's actual product page of their website. The author (I) of this project and the brand is not connected/affiliated or corporated with one another in any way, and all content, images, and videos are the brand's intellectual properties only.
+
+I have no right to any content, images, and videos used for this project. All ownership of these assets is of www.nike.com only.
 
 [Nike Metcon 7](https://www.nike.com/t/metcon-7-womens-training-shoes-MjdMQM/CZ8280-515 "Product Page")
 
