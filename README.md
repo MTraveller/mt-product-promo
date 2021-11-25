@@ -103,7 +103,7 @@ The website was produced with accessibility in mind and made sure the website fi
 
 For this project, I used [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=Explorer%20The%20Nike%20Metcon%207%20Training%20Shoes&preview.text_type=custom#standard-styles) Google font. Easy on the eye and pleasant to read. I decided to host the font locally for performance.
 
-### Testings
+## Testings
 
 Throughout the website development, I've done intensive testing in every possible way to my ability to spot and quickly, with no delay, correct the bugs as fast as possible. With every new feature or code added, I would go back and test. Test the old as the new, take a step back, contemplate, and do more testing, and the result is a clean, lightweight website that I am pleased with.
 
@@ -111,7 +111,7 @@ Although I am currently pleased, it can always be better, like, for example, the
 
 Things like `align-content: space-around` or `justify-content: space-between` and `align-items: center` make life much easier and consistent on different devices.
 
-The `grid layout module` in CSS is fascinating and indeed worth exploring more in depth.
+The `grid layout module` in CSS is fascinating and indeed worth exploring more in-depth.
 
 Lighthouse Mobile
 
