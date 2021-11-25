@@ -2,7 +2,7 @@
 
 ### The Metcon 7 For Women
 
-Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/index.html "The Website")
+Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/index.html "The Website)
 
 ![Mockup](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/the-metcon-7-website-mockup.jpg)
 
@@ -44,9 +44,13 @@ I cleaned up a couple of lines of CSS code after using the `grid layout module`,
 
 #### Critical CSS
 
-I added critical CSS to the `<head> of the HTML files inside the `<style>` tag to load the website quickly with minimal blocking time. I then removed the added CSS from the stylesheet style-minified.css to save even more and remove any dups.
+I added critical CSS to the `<head>` of the HTML files inside the `<style>` tag to load the website quickly with minimal blocking time. I then removed the added CSS from the stylesheet style-minified.css to save even more and remove any dups.
 
 ![Critical CSS](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/critical-css.jpg)
+
+Thanks to [Demian Renzulli](https://web.dev/defer-non-critical-css/) at web.dev for providing this code below for loading the stylesheet as non-blocking.
+
+![None Blocking CSS](https://github.com/MTraveller/mt-product-promo/blob/9be475909b456e4bf287779f002366a472445075/rm-img/style-css-load-minimal-blocking.jpg)
 
 #### Images
 
