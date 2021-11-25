@@ -105,7 +105,7 @@ For this project, I used [Titillium Web](https://fonts.google.com/specimen/Titil
 
 ### Testings
 
-Throughout the website development, I've done intensive testing in every possible way to spot and quickly, with no delay, correct the bugs as fast as possible. With every new feature or code added, I would go back and test. Test the old as the new, take a step back, contemplate, and do more testing, and the result is a clean, lightweight website that I am pleased with.
+Throughout the website development, I've done intensive testing in every possible way to my ability to spot and quickly, with no delay, correct the bugs as fast as possible. With every new feature or code added, I would go back and test. Test the old as the new, take a step back, contemplate, and do more testing, and the result is a clean, lightweight website that I am pleased with.
 
 Although I am currently pleased, it can always be better, like, for example, the navbar. Maybe making the navbar with GRID or Flexbox instead of using inline-block would make more sense.
 
