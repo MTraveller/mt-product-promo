@@ -69,7 +69,15 @@ Adding a poster attribute to the `<video>` tag will fix this issue and show an i
 
 The home page has a simple table located at the bottom of the page and has overflow-x set to auto so that a scrollbar appears on mobile devices, which otherwise would add whitespace to the right of the page and not fill the whole browser width, as seen below.
 
- ![Overflow-x](https://github.com/MTraveller/mt-product-promo/blob/3b910be1e15c92c3a9f47bbf53ac4b96fc550662/rm-img/table-overflow-x-auto.jpg)
+![Overflow-x](https://github.com/MTraveller/mt-product-promo/blob/3b910be1e15c92c3a9f47bbf53ac4b96fc550662/rm-img/table-overflow-x-auto.jpg)
+
+#### Form
+
+A form is on the contact.html page, nothing special; a bit of styling to make it look good and aligned with the website as a whole. The ´<input>s´ do not have labels; instead, use the placeholder attribute to make it look smarter and cleaner.
+
+| Form | Placeholder |
+|:--------:|:--------:|
+| ![FORM](https://github.com/MTraveller/mt-product-promo/blob/33b3ebc6939230be1ec05cb7a227544aadebdf9b/rm-img/form-contact-page-image.jpg) | ![PLACEHOLDER](https://github.com/MTraveller/mt-product-promo/blob/613b94f2b76c3da4dd093257286d1ec661ae4995/rm-img/form-placeholders.jpg) |
 
 ### Accessibility
 
@@ -90,13 +98,17 @@ I have no right to any content, images, and videos used for this project. All ow
 ### HTML
 
 [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Findex.html "https://validator.w3.org")
+
 [images.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Fimages.html "https://validator.w3.org")
+
 [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Fcontact.html "https://validator.w3.org")
 
 ### CSS
 
 [index.html](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en "https://jigsaw.w3.org")
+
 [images.html](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Fimages.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en "https://jigsaw.w3.org")
+
 [contact.html](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en "https://jigsaw.w3.org")
 
 ## Credits
