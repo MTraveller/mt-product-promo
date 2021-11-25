@@ -73,7 +73,7 @@ The home page has a simple table located at the bottom of the page and has overf
 
 #### Form
 
-On the contact.html page, there's a form, nothing special; a bit of styling to make it look appropriate and aligned with the website as a whole. The ´<input>s´ do not have labels; instead, use the placeholder attribute to make it look smarter and cleaner.
+On the contact.html page, there's a form, nothing special; a bit of styling to make it look appropriate and aligned with the website as a whole. The ´<input>´s do not have labels; instead, use the placeholder attribute to make it look smarter and cleaner.
 
 | Form | Placeholder |
 |:--------:|:--------:|
