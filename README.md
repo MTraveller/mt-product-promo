@@ -54,8 +54,12 @@ As for this project, I used only HTML and CSS except for the Instagram embed, wh
 
 #### Videos
 
-The video on the front page has a poster for two things; 1. controlling the first view.
+The video on the front page has a poster for two things;
+
+---
+1. controlling the first view.
 2. on mobile, the video won't load as on desktop, and a genetic circle with a play button would appear.
+---
 
 | Poster HTML Tag | Video Poster Image |
 |:--------:|:--------:|
