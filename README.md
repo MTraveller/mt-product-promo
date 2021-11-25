@@ -120,6 +120,14 @@ Digging further, Chrome's dev tool states there are no unused CSS declarations.
 
 ![Declarations](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/unused-declarations.jpg)
 
+#### Bugs
+
+I mistakenly added loading and alt attributes to `<source>` following the writing as I went on in the moment of heat writing the HTML code. When I checked with the HTML validator, I got errors, as seen below.
+
+![Errors](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/attribute-html-error.jpg)
+
+I removed the attributes and voilá, errors gone. Having these attributes in `<source>` duplicates the `<img>` attributes, which has these anyway.
+
 ## Validators
 
 ### HTML
