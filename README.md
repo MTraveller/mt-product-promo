@@ -42,6 +42,12 @@ I cleaned up a couple of lines of CSS code after using the `grid layout module`,
 
 ![GRID2](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-for-less-css2.jpg)
 
+#### Critical CSS
+
+I added critical CSS to the `<head> of the HTML files inside the `<style>` tag to load the website quickly with minimal blocking time. I then removed the added CSS from the stylesheet style-minified.css to save even more and remove any dups.
+
+![Critical CSS](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/critical-css.jpg)
+
 #### Images
 
 Images live inside the `<picture>` tag within the `<figure>` tag and use the next-gen images such as avif and webp with a fallback to png or jpg.
@@ -102,6 +108,10 @@ I have no right to any content, images, and videos used for this project. All ow
 [images.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Fimages.html "https://validator.w3.org")
 
 [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Fcontact.html "https://validator.w3.org")
+
+There are four errors for the Instagram embed code on the contact page and have nothing to do with the website. Unfortunately, there is little I can do about these errors, and the only way to fix them is to remove the embed code received from Instagram altogether.
+
+![INSTAGRAM](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/contact-html-errors-validator.jpg)
 
 ### CSS
 
