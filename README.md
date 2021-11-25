@@ -2,7 +2,7 @@
 
 ### The Metcon 7 For Women
 
-Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/index.html "The Website)
+Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/index.html "The Website")
 
 ![Mockup](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/the-metcon-7-website-mockup.jpg)
 
@@ -24,7 +24,7 @@ The website has a header with a different background image for each page; the he
 
 ![Header](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/header.jpg)
 
-Below the header is the navbar with 3-links, each highlight on hover and current page. The website incorporates a simple CSS highlight method to highlight the current page a user is on for better usability.
+Below the header is the navbar with 3-links identical on all pages for easy navigation, each highlight on hover and current page. The website incorporates a simple CSS highlight method to highlight the current page a user is on for better usability.
 
 ![Navbar](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/navbar.jpg)
 
