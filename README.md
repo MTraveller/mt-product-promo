@@ -36,14 +36,14 @@ The body of the website utilizes the CSS grid property for cleaner code and to m
 
 ![GRID](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-element-100-percent.jpg)
 
-Images live inside the <picture> tag within the <figure> tag and use the next-gen images such as avif and webp with a fallback to png or jpg. The header does not utilize the <picture> tag as I set the background image with CSS instead merely for educational purposes. If I wanted to use next-gen images, I would use the Modernizr JS library to check which features the visitor's browser has. Then dynamically inject classes based on the information retrieved and target those classes with CSS for either next-gen or classic image types.
+Images live inside the `<picture>` tag within the `<figure>` tag and use the next-gen images such as avif and webp with a fallback to png or jpg. The header does not utilize the `<picture>` tag as I set the background image with CSS instead merely for educational purposes. If I wanted to use next-gen images, I would use the Modernizr JS library to check which features the visitor's browser has. Then dynamically inject classes based on the information retrieved and target those classes with CSS for either next-gen or classic image types.
 
 As for this project, I used only HTML and CSS except for the Instagram embed, which has JS in its embed code.
 
 The video on the front page has a poster for two things; 1. controlling the first view.
 2. on mobile, the video won't load as on desktop, and a genetic circle with a play button would appear.
 
-Adding a poster attribute to the <video> tag will fix this issue and show an image for all screens for consistency. The video on images.html does not have this issue because of the autoplay attribute set.
+Adding a poster attribute to the `<video>` tag will fix this issue and show an image for all screens for consistency. The video on images.html does not have this issue because of the autoplay attribute set.
 
 ### Accessibility
 
