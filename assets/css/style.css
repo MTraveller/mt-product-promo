@@ -84,9 +84,6 @@ ul {
 li {
     display: inline-block;
 }
-h1, h2, ul, #top-section, figcaption, footer, div, span, td, a {
-    text-align: center;
-}
 #main-header {
     height: 388px;
 }
@@ -371,9 +368,6 @@ header > h2 {
     #images section {
         grid-template-columns: 1fr;
     }
-}
-figure {
-    text-align: center;
 }
 @media screen and (max-width: 425px) {
     #home figure video {
