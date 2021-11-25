@@ -128,7 +128,11 @@ https://metatags.io
 ### Sources Used
 
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids
+
 https://css-tricks.com/almanac/properties/f/font-display/
+
 https://web.dev/defer-non-critical-css/
+
 https://drafts.csswg.org/css-grid/
+
 https://stackoverflow.com
