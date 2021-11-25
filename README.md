@@ -97,7 +97,7 @@ The footer is very simple, made with a copyright symbol and the website name on 
 
 ### Accessibility
 
-The website was produced with accessibility in mind and made sure the website fits all screen sizes perfectly according to chrome's dev tools. The result looks great.
+The website was produced with accessibility in mind and made sure the website fits all screen sizes perfectly according to Chrome's dev tools. The result looks great.
 
 ### Font
 
@@ -108,6 +108,17 @@ For this project, I used [Titillium Web](https://fonts.google.com/specimen/Titil
 I took all content, images, and videos for the product from the brand's actual product page of their website. The author (I) of this project and the brand is not connected/affiliated or corporated with one another in any way, and all content, images, and videos are the brand's intellectual property only.
 
 I have no right to any content, images, and videos used for this project. All ownership of these assets is of www.nike.com only.
+
+#### Tests
+
+##### Lighthouse Mobile
+| Home Page | Images Page | Contact Page |
+|:--------:|:--------:|:--------:|
+| ![Home-Page](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/home-lighthouse.jpg) | ![Images-Page](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/images-lighthouse.jpg) | ![Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/contact-lighthouse.jpg) |
+
+Digging further, Chrome's dev tool states there are no unused CSS declarations.
+
+![Declarations](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/unused-declarations.jpg)
 
 ## Validators
 
