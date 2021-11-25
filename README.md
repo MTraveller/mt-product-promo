@@ -36,18 +36,30 @@ The body of the website utilizes the CSS grid property for cleaner code and to m
 
 ![GRID](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-element-100-percent.jpg)
 
-I cleaned up a couple of lines of CSS code after using the `grid layout module`, which ultimately saves data to transfer.
+I cleaned up a couple of lines of CSS code after using the `grid layout module`, which ultimately saves data to transfer and the code being cleaner.
 
 ![GRID1](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-for-less-css1.jpg)
 
 ![GRID2](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-for-less-css2.jpg)
 
-Images live inside the `<picture>` tag within the `<figure>` tag and use the next-gen images such as avif and webp with a fallback to png or jpg. The header does not utilize the `<picture>` tag as I set the background image with CSS instead merely for educational purposes. If I wanted to use next-gen images, I would use the Modernizr JS library to check which features the visitor's browser has. Then dynamically inject classes based on the information retrieved and target those classes with CSS for either next-gen or classic image types.
+#### Images
+
+Images live inside the `<picture>` tag within the `<figure>` tag and use the next-gen images such as avif and webp with a fallback to png or jpg.
+
+![IMAGES](https://github.com/MTraveller/mt-product-promo/blob/9e523a8c9a96009ebb20e030a9681a895487724d/rm-img/images-inside-figure.jpg)
+
+The header does not utilize the `<picture>` tag as I set the background image with CSS instead merely for educational purposes. If I wanted to use next-gen images, I would use the Modernizr JS library to check which features the visitor's browser has. Then dynamically inject classes based on the information retrieved and target those classes with CSS for either next-gen or classic image types.
 
 As for this project, I used only HTML and CSS except for the Instagram embed, which has JS in its embed code.
 
+#### Videos
+
 The video on the front page has a poster for two things; 1. controlling the first view.
 2. on mobile, the video won't load as on desktop, and a genetic circle with a play button would appear.
+
+| Poster HTML Tag | Video Poster Image |
+|:--------:|:--------:|
+| ![PH-TAG](https://github.com/MTraveller/mt-product-promo/blob/4c58b7dd29bbba49c7cf4fa318bee1f693a1b653/rm-img/poster-video-html-tag.jpg) | ![POSTER](https://github.com/MTraveller/mt-product-promo/blob/3b1b055e2354cd18f66f05593b67fd8b4a02c246/rm-img/poster-for-videos.jpg) |
 
 Adding a poster attribute to the `<video>` tag will fix this issue and show an image for all screens for consistency. The video on images.html does not have this issue because of the autoplay attribute set.
 
