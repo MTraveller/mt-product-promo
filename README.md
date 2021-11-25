@@ -141,7 +141,7 @@ Digging further, Chrome's dev tool states there are no unused CSS declarations.
 
 #### Bugs
 
-I mistakenly added loading and alt attributes to `<source>` following the writing as I went on in the moment of heat writing the HTML code. When I checked with the HTML validator, I got errors, as seen below.
+I mistakenly added loading and alt attributes to `<source>` while writing as I went on in the moment of heat writing the HTML code. When I checked with the HTML validator, I got errors, as seen below.
 
 ![Errors](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/attribute-html-error.jpg)
 
