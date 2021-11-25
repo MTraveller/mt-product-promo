@@ -89,6 +89,12 @@ On the contact.html page, there's a form, nothing special; a bit of styling to m
 |:--------:|:--------:|
 | ![FORM](https://github.com/MTraveller/mt-product-promo/blob/33b3ebc6939230be1ec05cb7a227544aadebdf9b/rm-img/form-contact-page-image.jpg) | ![PLACEHOLDER](https://github.com/MTraveller/mt-product-promo/blob/613b94f2b76c3da4dd093257286d1ec661ae4995/rm-img/form-placeholders.jpg) |
 
+#### Footer
+
+The footer is very simple, made with a copyright symbol and the website name on the left. To the right, there are three links wrapped within a `<ul>` just as the navbar but does not highlight the current page.
+
+![FOOTER](https://github.com/MTraveller/mt-product-promo/blob/579fd99ad04dd2b1ec0b1202e19e287852505bbf/rm-img/footer.jpg)
+
 ### Accessibility
 
 The website was produced with accessibility in mind and made sure the website fits all screen sizes perfectly according to chrome's dev tools. The result looks great.
