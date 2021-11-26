@@ -211,6 +211,10 @@ I mistakenly added loading and alt attributes to `<source>` while writing as I w
 
 I removed the attributes and voilá, errors gone. Having these attributes in `<source>` duplicates the `<img>` attributes, which has these anyway.
 
+There were four errors for the Instagram embed code on the contact page and had nothing to do with the website. Unfortunately, there is little I can do about these errors, and the only way to fix them is to remove the embed code received from Instagram altogether, which I did.
+
+![INSTAGRAM](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/contact-html-errors-validator.jpg)
+
 ## Validators
 
 ### HTML
@@ -222,10 +226,6 @@ No errors are displayed when passed through the official W3C validator of all th
 [images.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Fimages.html "https://validator.w3.org")
 
 [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Fcontact.html "https://validator.w3.org")
-
-There are four errors for the Instagram embed code on the contact page and have nothing to do with the website. Unfortunately, there is little I can do about these errors, and the only way to fix them is to remove the embed code received from Instagram altogether.
-
-![INSTAGRAM](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/contact-html-errors-validator.jpg)
 
 ### CSS
 
@@ -308,4 +308,4 @@ This project is a part of the Full Stack Software Developer Diploma at [Code Ins
 
 Mahmoud Tantouri 2021.
 
-[Back to top](#)
+[Back to top](#the-first-project-portfolio-of-ci)
