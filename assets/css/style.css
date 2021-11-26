@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* Load the font family */
 @font-face {
     font-family: 'TitilliumWeb';
     src: url('../font/titilliumweb-black.woff2') format('woff2'),
@@ -43,6 +44,7 @@
     font-style: normal;
     font-display: swap;
 }
+/* Apply the font family to elements */
 body {
     background-color: whitesmoke;
     font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
@@ -68,6 +70,7 @@ input, textarea {
     font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
     font-weight: 300;
 }
+/* General styling */
 img {
     width: 100%;
     max-width: 430px;
@@ -96,14 +99,15 @@ li {
     align-content: center;
     align-items: center;
 }
-#message-sent #header-overlay {
-    background-color: rgb(0 0 0);
-}
 #header-overlay h1 {
     font-size: 3.4rem;
     text-transform: uppercase;
     color: #fff;
 }
+#message-sent #header-overlay {
+    background-color: rgb(0 0 0);
+}
+/* Responsive styling for the header */
 @media screen and (max-width: 1440px) {
     #header-overlay h1 {
         font-size: 3rem;
@@ -126,6 +130,7 @@ li {
         letter-spacing: 2px;
     }    
 }
+/* Styling for the navbar */
 nav {
     background-color: #000000;
 }
@@ -143,6 +148,7 @@ nav li a {
     border: 10px solid #000000;
     border-radius: 15px;
 }
+/* Responsive styling for the navbar */
 @media screen and (min-width: 769px) {
     nav li {
         padding: 0 3rem;
@@ -172,6 +178,7 @@ li a {
     letter-spacing: 2px;
     color: #fff;
 }
+/* Navbar links highlight */
 li a:hover {
     background-color: #ffffff;
     color: #000000;
@@ -185,6 +192,7 @@ li a:hover {
         letter-spacing: 1px;
     }    
 }
+/* Styling for site body */
 main {
     width: 80%;
     margin: 2rem auto 8rem;
@@ -467,6 +475,7 @@ figcaption {
 #contact footer > h2 {
     margin-bottom: 2rem;
 }
+/* Footer styling */
 #main-footer {
     background-color: black;
     color: #ffffff;
@@ -524,6 +533,7 @@ figcaption {
         text-transform: capitalize;
     }    
 }
+/* Table on home.html */
 table {
     margin: 1rem auto 2rem;
     border-spacing: 15px;
@@ -541,6 +551,7 @@ td {
 td.emtpy-td {
     border: none;
 }
+/* Form & content styling on contact.html */
 #contact h3 {
     font-size: 1.6rem;
 }
@@ -590,10 +601,6 @@ input[placeholder], textarea[placeholder] {
     color: #ffffff!important;
     background-color: #337a88!important;
     border-color: #337a88!important;
-}
-#instagram-embed-0 {
-    margin: 0 auto!important;
-    min-width: 300px!important;
 }
 #message-sent h2 {
         line-height: 2.5rem;
