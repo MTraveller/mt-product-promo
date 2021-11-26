@@ -429,13 +429,13 @@ figcaption {
     font-weight: 600;
 }
 @media screen and (max-width: 425px) {
-    article > span {
+    #images article > span {
         letter-spacing: 3px;
         font-size: 1.2rem;
     }   
 }
 @media screen and (max-width: 375px) {
-    article > span {
+    #images article > span {
         letter-spacing: 1px;
         font-size: 1.1rem;
     }   
