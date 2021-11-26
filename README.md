@@ -3,9 +3,14 @@
 ## Table of Contents
 
 * [Introduction](#the-metcon-7-for-women)
-    * [The Wireframing](#the-wireframing)
-    * [Website Features](#website-features)
-    * [Critical CSS](#critical-css)
+    * [The Surface](#the-surface)
+    * [Skeleton](#skeleton)
+    * [Structure](#structure)
+    * [Scope](#scope)
+    * [Strategy](#strategy)
+* [Development](#development)
+    * [HTML](#html)
+    * [CSS & Critical CSS](#css-critical-css)
     * [Images](#images)
     * [Videos](#videos)
     * [Table](#table)
@@ -31,11 +36,11 @@ Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/i
 
 ![Mockup](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/the-metcon-7-website-mockup.jpg)
 
-The Metcon 7 project is a website promoting one specific product targeted toward women between 20-38 years old who do fitness, bodybuilding, or CrossFit training and know the importance of and appreciate quality training shoes. Based on the real world, Nike Metcon 7 training shoes. The website showcases the shoes with videos and images and leads the visitor to the product page to purchase the shoes.
+### Surface
 
 The homepage will greet the visitor with a big header and a headline containing a background image to understand what the website is all about quickly—the horizontal navbar just below the header, with spaced links for easy navigation.
 
-As the visitor scrolls down, a video appears showcasing the product with two calls to action, either going to the external shop page or the internal images page. The images page displays the product in more detail with snippets of text encouraging to purchase the product and leave an overall superior feeling.
+As the visitor scrolls down, a video appears showcasing the product with two calls to action, either going to the external shop page or the internal images page. The images page displays the product in more detail with snippets of text encouraging to purchase the product and leaving an overall superior feeling.
 
 Below, these content blocks appear with snippets of text and images to continue the hype and build anticipation.
 
@@ -47,17 +52,39 @@ A final Instagram post is embedded at the bottom of the page to build more trust
 
 A footer at the absolute bottom of all pages appears.
 
-### The Wireframing
+The colors used to produce the website are White, Black, Light Blue, and Green. The chosen font for the website is  Google font Titillium Web, which gives a pleasant reading experience.
 
-For wireframing this project, mockflow.com was used to design the initial layout for desktop and mobile-sized screens. The website includes features like images, videos, tables, forms, and embeds.
+### Skeleton
+
+The header and footer are the same throughout the website. The pitch of the website is clear and to the point as it is priority #1.
+
+Wireframing this project, mockflow.com was used to design the initial layout for desktop and mobile-sized screens.
 
 | Desktop | Mobile |
 |:--------:|:--------:|
 | [Home-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/home-page.png) | [Home-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/home-mobile.png) |
 | [Images-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/images-page.png) | [Images-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/images-mobile.png) |
-| [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/contact-page.png) | [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/contact-mobile.png) |
+| [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/contact-page.png) | [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/contact-mobile.png) |.
 
-### Website Features
+### Structure
+
+The website targets English-speaking women and reads from left to right. The construct of the navigation is in a linear flow for precise and easy navigation.
+
+The body of the website includes simple one, two, and three columns of text and media without being crowded yet informative.
+
+### Scope
+
+The website's features showcase the product with images, videos, and text to provide a positive vision and ideas. If the need comes up, a contact form is available.
+
+### Strategy
+
+The Metcon 7 project is a website promoting one specific product targeted toward women between 20-38 years old who do fitness, bodybuilding, or CrossFit training and know the importance of and appreciate quality training shoes.
+
+Based on the real world, Nike Metcon 7 training shoes. The website showcases the shoes with videos and images and leads the visitor to the product page to purchase the shoes.
+
+The website gives people information in more detail focused on the specific product without distraction for better judgment and ultimately to purchase the product.
+
+### HTML
 
 The website is purely in `HTML` and  `CSS` technologies, with no Javascript. The website is very lightweight and uses next-gen images and videos.
 
@@ -83,7 +110,7 @@ I cleaned up a couple of lines of CSS code after using the `grid layout module`,
 
 ![GRID2](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/grid-for-less-css2.jpg)
 
-### Critical CSS
+### CSS & Critical CSS
 
 I added critical CSS to the `<head>` of the HTML files inside the `<style>` tag to load the website quickly with minimal blocking time. I then removed the added CSS from the stylesheet style-minified.css to save even more and remove any dups.
 
