@@ -185,7 +185,7 @@ Lighthouse Mobile
 
 | Home Page | Images Page | Contact Page |
 |:--------:|:--------:|:--------:|
-| ![Home-Page](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/home-lighthouse.jpg) | ![Images-Page](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/images-lighthouse.jpg) | ![Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/contact-lighthouse.jpg) |
+| ![Home-Page](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/home-lighthouse.jpg) | ![Images-Page](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/images-lighthouse.jpg) | ![Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/131c408d542c36afb8fdd63ce5479c2e191f7fa8/rm-img/contact-lighthouse3.jpg) |
 
 Digging further, Chrome's dev tool states there are no unused CSS declarations.
 
@@ -270,7 +270,7 @@ How to deploy this project:
   3. Under <b>Source</b>, select the branch to <b>Main/Master</b>, then click <b>Save</b>.
   4. Once you've selected the master branch, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-![Git Deploy](https://github.com/MTraveller/mt-product-promo/blob/cd8d0e5aba937e380deff5b61fd1cfdb7c679ce4/rm-img/deploy-project.jpg)
+![Git Deploy](https://github.com/MTraveller/mt-product-promo/blob/131c408d542c36afb8fdd63ce5479c2e191f7fa8/rm-img/deploy-project3.jpg)
 
 ## Credits
 
