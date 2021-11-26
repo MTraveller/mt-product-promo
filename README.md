@@ -197,7 +197,6 @@ The website was produced with accessibility in mind and made sure the website is
 
 Results:
 
-| Home Page | 
 |:--------:|
 | ![Home-Page](https://github.com/MTraveller/mt-product-promo/blob/f5cfba20a859166a2c46fc2ec0f0902a63e5027e/rm-img/ac-index.jpg) |
 | ![Images-Page](https://github.com/MTraveller/mt-product-promo/blob/f5cfba20a859166a2c46fc2ec0f0902a63e5027e/rm-img/ac-images.jpg) |
@@ -214,6 +213,14 @@ I removed the attributes and voilá, errors gone. Having these attributes in `<s
 There were four errors for the Instagram embed code on the contact page and had nothing to do with the website. I removed the embed code received from Instagram altogether.
 
 ![INSTAGRAM](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/contact-html-errors-validator.jpg)
+
+Thanks to @Stephen_5p_lead on slack for pointing out the small CSS error on the @media query with 425px and below, where I edited the main style selector with an ID added and overwrote the media queries below it.
+
+![CSS-Overwritten]()
+
+I added the same ID to the media queries; that resolved the issue.
+
+![CSS-Bug-Fixed]()
 
 ## Validators
 
