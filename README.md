@@ -15,7 +15,6 @@
     * [Videos](#videos)
     * [Table](#table)
     * [Form](#form)
-    * [Footer](#footer)
     * [Accessibility](#accessibility)
     * [Font](#font)
     * [Testings](#testings)
@@ -65,6 +64,10 @@ The header has a different background image for each page; the header has a dark
 The navbar with 3-links which on "hover" and the current page highlights. The website incorporates a simple CSS method to highlight the links.
 
 ![Navbar](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/navbar.jpg)
+
+The footer is very simple, with a copyright symbol and the website name to the left. To the right, there are three links just as the navbar but does not highlight the current page.
+
+![FOOTER](https://github.com/MTraveller/mt-product-promo/blob/579fd99ad04dd2b1ec0b1202e19e287852505bbf/rm-img/footer.jpg)
 
 Wireframing this project, mockflow.com was used to design the initial layout for desktop and mobile-sized screens.
 
@@ -156,12 +159,6 @@ On the contact.html page, there's a form, nothing special; a bit of styling to m
 | Form | Placeholder |
 |:--------:|:--------:|
 | ![FORM](https://github.com/MTraveller/mt-product-promo/blob/33b3ebc6939230be1ec05cb7a227544aadebdf9b/rm-img/form-contact-page-image.jpg) | ![PLACEHOLDER](https://github.com/MTraveller/mt-product-promo/blob/613b94f2b76c3da4dd093257286d1ec661ae4995/rm-img/form-placeholders.jpg) |
-
-### Footer
-
-The footer is very simple, made with a copyright symbol and the website name on the left. To the right, there are three links wrapped within a `<ul>` just as the navbar but does not highlight the current page.
-
-![FOOTER](https://github.com/MTraveller/mt-product-promo/blob/579fd99ad04dd2b1ec0b1202e19e287852505bbf/rm-img/footer.jpg)
 
 ### Accessibility
 
