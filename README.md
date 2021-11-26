@@ -23,6 +23,10 @@
 * [Validators](#validators)
     * [HTML](#html)
     * [CSS](#css)
+* [Deployment](#deployment)
+    * [Fork](#fork)
+    * [Clone](#clone)
+    * [Deploy](#deploy)
 * [Credits](#credits)
     * [Content, Images, and Videos](#content-images-and-videos)
     * [Minifier](#minifier)
@@ -163,10 +167,6 @@ On the contact.html page, there's a form, nothing special; a bit of styling to m
 |:--------:|:--------:|
 | ![FORM](https://github.com/MTraveller/mt-product-promo/blob/33b3ebc6939230be1ec05cb7a227544aadebdf9b/rm-img/form-contact-page-image.jpg) | ![PLACEHOLDER](https://github.com/MTraveller/mt-product-promo/blob/613b94f2b76c3da4dd093257286d1ec661ae4995/rm-img/form-placeholders.jpg) |
 
-### Accessibility
-
-The website was produced with accessibility in mind and made sure the website fits all screen sizes perfectly according to Chrome's dev tools. The result looks great.
-
 ### Font
 
 For this project, I used [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=Explorer%20The%20Nike%20Metcon%207%20Training%20Shoes&preview.text_type=custom#standard-styles) Google font. Easy on the eye and pleasant to read. I decided to host the font locally for performance.
@@ -191,7 +191,19 @@ Digging further, Chrome's dev tool states there are no unused CSS declarations.
 
 ![Declarations](https://github.com/MTraveller/mt-product-promo/blob/d1e29505e7ea073614f9c499d6fb581b51e9970d/rm-img/unused-declarations.jpg)
 
-#### Bugs
+### Accessibility
+
+The website was produced with accessibility in mind and made sure the website is a user friendly as possible. I tested the website in Chrome's Lighthouse and on [a11y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/).
+
+Results:
+
+| Home Page | 
+|:--------:|
+| ![Home-Page](https://github.com/MTraveller/mt-product-promo/blob/f5cfba20a859166a2c46fc2ec0f0902a63e5027e/rm-img/ac-index.jpg) |
+| ![Images-Page](https://github.com/MTraveller/mt-product-promo/blob/f5cfba20a859166a2c46fc2ec0f0902a63e5027e/rm-img/ac-images.jpg) |
+| ![Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/f5cfba20a859166a2c46fc2ec0f0902a63e5027e/rm-img/ac-contact.jpg) |
+
+### Bugs
 
 I mistakenly added loading and alt attributes to `<source>` while writing as I went on in the moment of heat, writing the HTML code. When I checked with the HTML validator, I got errors, as seen below.
 
@@ -225,6 +237,41 @@ No errors are displayed when passed through the official W3C Jigsaw validator of
 
 [contact.html](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en "https://jigsaw.w3.org")
 
+## Deployment
+
+### Fork
+
+How to fork this repository:
+
+1. Log in to GitHub and navigate to [this repository](https://github.com/MTraveller/mt-product-promo).
+2. You'll see a button called <b>Fork</b> on the top right side of the page. Click the button to create a copy of this repository to your own GitHub account.
+
+![Fork Project](https://github.com/MTraveller/mt-product-promo/blob/c2daae295d1b2c5708a364c2ad9527a954f139e9/rm-img/fork-the-respository.jpg)
+
+### Clone
+
+How to clone this project:
+
+1. Under the repository’s name, click on the <b>Code</b> button.
+2. In the <b>HTTPS</b> tap, click on the clipboard icon to copy the given URL.
+3. In your IDE of choice, open <b>**git bash**</b>.
+4. Change the current working directory to where you want the cloned directory to be.
+5. Type <b>**git clone**</b>, paste the URL copied from GitHub - https://github.com/MTraveller/mt-product-promo.git.
+6. Press <b>**enter**</b>, and you are done.
+
+![Clone Project](https://github.com/MTraveller/mt-product-promo/blob/c2daae295d1b2c5708a364c2ad9527a954f139e9/rm-img/project-cloning.jpg)
+
+### Deploy
+
+How to deploy this project:
+
+  1. In the GitHub repository, navigate to the <b>Settings</b> tab.
+  2. Once in Settings, navigate to the <b>Pages</b> tab on the left vertical menu.
+  3. Under <b>Source</b>, select the branch to <b>Main/Master</b>, then click <b>Save</b>.
+  4. Once you've selected the master branch, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+![Git Deploy](https://github.com/MTraveller/mt-product-promo/blob/cd8d0e5aba937e380deff5b61fd1cfdb7c679ce4/rm-img/deploy-project.jpg)
+
 ## Credits
 
 ### Content, Images, and Videos
@@ -254,3 +301,11 @@ https://web.dev/defer-non-critical-css/
 https://drafts.csswg.org/css-grid/
 
 https://stackoverflow.com
+
+## Acknowledgement
+
+This project is a part of the Full Stack Software Developer Diploma at [Code Institute](https://codeinstitute.net/).
+
+Mahmoud Tantouri 2021.
+
+[Back to top](#)
