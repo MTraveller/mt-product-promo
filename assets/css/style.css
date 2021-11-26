@@ -432,7 +432,7 @@ article > span, footer > a {
         font-size: 1.1rem;
     }   
 }
-footer > a {
+#images footer > a {
     width: 70%;
     height: 8rem;
     margin-top: 3rem;
@@ -442,12 +442,12 @@ footer > a {
     transform: skew(338deg, 0deg);
 }
 @media screen and (max-width: 768px) {
-    footer > a {
+    #images footer > a {
         width: 100%;
     }    
 }
 @media screen and (max-width: 425px) {
-    footer > a {
+    #images footer > a {
         width: 86%;
         height: 6rem;
         line-height: 5rem;
@@ -456,7 +456,7 @@ footer > a {
     }    
 }
 @media screen and (max-width: 375px) {
-    footer > a {
+    #images footer > a {
         font-size: 1rem;
     }    
 }
