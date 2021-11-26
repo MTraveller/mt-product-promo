@@ -28,7 +28,7 @@ Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/i
         -   The two main colors used are black ![black](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/000000.jpg) #000000 and white ![white](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/ffffff.jpg) #FFFFFF with two sub-colors light blue ![light-blue](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/2196f3.jpg) #2196F3 and light green ![light-green](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/337a88.jpg) #337A88.
 
     -   #### Typography
-        -   The Titillium Web font is the main font used throughout the whole website, with Arial, Helvetica, and Sans Serif as the fallback font in the case, for any reason, the font isn't being imported into the site correctly. Titillium Web is a clean font and pleasant font to read.
+        -   The [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=Explorer%20The%20Nike%20Metcon%207%20Training%20Shoes&preview.text_type=custom#standard-styles) font is the main font used throughout the whole website, with Arial, Helvetica, and Sans Serif as the fallback font in the case, for any reason, the font isn't being imported into the site correctly. Titillium Web is a clean font and pleasant font to read. I decided to host the font locally for performance.
 
         ![TitilliumWeb](https://github.com/MTraveller/mt-product-promo/blob/42c47b5019c52e73fa40ee9bce98758080b1e45e/readme-images/titillium-web-font.jpg)
 
@@ -217,10 +217,6 @@ On the contact.html page, there's a form, nothing special; a bit of styling to m
 |:--------:|:--------:|
 | ![FORM](https://github.com/MTraveller/mt-product-promo/blob/33b3ebc6939230be1ec05cb7a227544aadebdf9b/rm-img/form-contact-page-image.jpg) | ![PLACEHOLDER](https://github.com/MTraveller/mt-product-promo/blob/613b94f2b76c3da4dd093257286d1ec661ae4995/rm-img/form-placeholders.jpg) |
 
-### Font
-
-For this project, I used [Titillium Web](https://fonts.google.com/specimen/Titillium+Web?preview.text=Explorer%20The%20Nike%20Metcon%207%20Training%20Shoes&preview.text_type=custom#standard-styles) Google font. Easy on the eye and pleasant to read. I decided to host the font locally for performance.
-
 ## Testings
 
 Throughout the website development, I've done intensive testing in every possible way to my ability to spot and quickly, with no delay, correct the bugs as fast as possible. With every new feature or code added, I would go back and test. Test the old as the new, take a step back, contemplate, and do more testing, and the result is a clean, lightweight website that I am pleased with.
@@ -259,7 +255,7 @@ I mistakenly added loading and alt attributes to `<source>` while writing as I w
 
 I removed the attributes and voilá, errors gone. Having these attributes in `<source>` duplicates the `<img>` attributes, which has these anyway.
 
-There were four errors for the Instagram embed code on the contact page and had nothing to do with the website. I removed the embed code received from Instagram altogether.
+There were four errors for the Instagram embed code on the contact page and had nothing to do with the website. I removed the embed code from Instagram altogether as it was bulky and shifted the layout too much. I tried to minimize the layout shift as much as possible, but with the errors still there, I removed it.
 
 ![INSTAGRAM](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/contact-html-errors-validator.jpg)
 
@@ -275,7 +271,7 @@ I added the same ID to the media queries; that resolved the issue.
 
 ### HTML
 
-No errors are displayed when passed through the official W3C validator of all three pages. The only exception is the embed code on the contact page as described below.
+No errors are displayed when passed through the official W3C validator of all three pages.
 
 [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmtraveller.github.io%2Fmt-product-promo%2Findex.html "https://validator.w3.org")
 
