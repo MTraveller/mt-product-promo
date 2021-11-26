@@ -1,8 +1,46 @@
 # The First Project Portfolio of CI
 
+### The Metcon 7 For Women
+
+Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/index.html "The Website")
+
+![Mockup](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/the-metcon-7-website-mockup.jpg)
+
+## User Experience (UX)
+
+-   ### User stories
+
+    -   #### First Time Visitor Goals
+
+        1. As a First Time Visitor, I want to understand the site's primary purpose quickly.
+        2. As a First Time Visitor, I want to easily navigate throughout the site to find the content the organization sent me to see.
+        3. As a first-time visitor, I want to look for things that make the site trustworthy.
+
+    -   #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to show family & friends the shoes.
+        2. As a Returning Visitor, I want to share the website with people on social media.
+
+-   ### Design
+    -   #### Colour Scheme
+        -   The two main colors used are black ![black](https://github.com/MTraveller/mt-product-promo/blob/22f8ad48c14f8438419d31e553d61583c15fe5bf/readme-images/#000000.jpg) #000000 and white ![white](https://github.com/MTraveller/mt-product-promo/blob/22f8ad48c14f8438419d31e553d61583c15fe5bf/readme-images/#ffffff.jpg) #FFFFFF with two sub-colors light blue ![light-blue](https://github.com/MTraveller/mt-product-promo/blob/22f8ad48c14f8438419d31e553d61583c15fe5bf/readme-images/#2196f3.jpg) #2196f3 and light green ![light-green](https://github.com/MTraveller/mt-product-promo/blob/22f8ad48c14f8438419d31e553d61583c15fe5bf/readme-images/#337a88.jpg) #337a88.
+    -   #### Typography
+        -   The Titillium Web font is the main font used throughout the whole website, with Arial, Helvetica, and Sans Serif as the fallback font in the case, for any reason, the font isn't being imported into the site correctly. Titillium Web is a clean font and pleasant font to read.
+    -   #### Imagery & Video
+        -   Imagery & video is important. The large background hero image is designed to be striking and catch the user's attention with the headline on the forefront. It is modern and sleek.
+
+*   ### Wireframes
+    -   Mockflow.com was used to design the initial layout for desktop and mobile-sized screens.
+
+    -   | Desktop | Mobile |
+|:--------:|:--------:|
+| [Home-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/home-page.png) | [Home-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/home-mobile.png) |
+| [Images-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/images-page.png) | [Images-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/images-mobile.png) |
+| [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/contact-page.png) | [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/contact-mobile.png) |
+
 ## Table of Contents
 
-* [Introduction](#the-metcon-7-for-women)
+* [Planes](#planes)
     * [The Surface](#the-surface)
     * [Skeleton](#skeleton)
     * [Structure](#structure)
@@ -34,11 +72,7 @@
     * [Sources Used](#sources-used)
     * [Credits](#Credits)
 
-### The Metcon 7 For Women
-
-Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/index.html "The Website")
-
-![Mockup](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/the-metcon-7-website-mockup.jpg)
+## Planes
 
 ### Surface
 
@@ -73,14 +107,6 @@ The navbar with 3-links which on "hover" and the current page highlights. The we
 The footer is very simple, with a copyright symbol and the website name to the left. To the right, there are three links just as the navbar but does not highlight the current page.
 
 ![FOOTER](https://github.com/MTraveller/mt-product-promo/blob/579fd99ad04dd2b1ec0b1202e19e287852505bbf/rm-img/footer.jpg)
-
-Wireframing this project, mockflow.com was used to design the initial layout for desktop and mobile-sized screens.
-
-| Desktop | Mobile |
-|:--------:|:--------:|
-| [Home-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/home-page.png) | [Home-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/home-mobile.png) |
-| [Images-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/images-page.png) | [Images-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/images-mobile.png) |
-| [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/be61291ce2195e37904c28d619390553e126686a/rm-img/contact-page.png) | [Contact-Page](https://github.com/MTraveller/mt-product-promo/blob/37f3a3a51a5ac0246d4c4d81c37f9be5edc74034/rm-img/contact-mobile.png) |.
 
 ### Structure
 
@@ -195,8 +221,7 @@ Digging further, Chrome's dev tool states there are no unused CSS declarations.
 
 The website was produced with accessibility in mind and made sure the website is a user friendly as possible. I tested the website in Chrome's Lighthouse and on [a11y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/).
 
-Results:
-
+| Results |
 |:--------:|
 | ![Home-Page](https://github.com/MTraveller/mt-product-promo/blob/f5cfba20a859166a2c46fc2ec0f0902a63e5027e/rm-img/ac-index.jpg) |
 | ![Images-Page](https://github.com/MTraveller/mt-product-promo/blob/f5cfba20a859166a2c46fc2ec0f0902a63e5027e/rm-img/ac-images.jpg) |
