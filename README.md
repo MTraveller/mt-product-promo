@@ -239,7 +239,7 @@ Digging further, Chrome's dev tool states there are no unused CSS declarations.
 
 ### Accessibility
 
-The website was produced with accessibility in mind and made sure the website is a user friendly as possible. I tested the website in Chrome's Lighthouse and on [a11y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/).
+The website was produced with accessibility in mind and made sure the website is user friendly as much as it can be. I tested the website in Chrome's Lighthouse and on [a11y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/).
 
 | Results |
 |:--------:|
