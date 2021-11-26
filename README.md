@@ -15,6 +15,7 @@
     * [Videos](#videos)
     * [Table](#table)
     * [Form](#form)
+    * [Footer](#footer)
     * [Accessibility](#accessibility)
     * [Font](#font)
     * [Testings](#testings)
@@ -94,6 +95,8 @@ The Metcon 7 project is a website promoting one specific product targeted toward
 Based on the real world, Nike Metcon 7 training shoes. The website showcases the shoes with videos and images and leads the visitor to the product page to purchase the shoes.
 
 The website gives people information in more detail focused on the specific product without distraction for better judgment and ultimately to purchase the product.
+
+## Development
 
 ### HTML
 
