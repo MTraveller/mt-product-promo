@@ -304,7 +304,7 @@ https://stackoverflow.com
 
 ## Acknowledgement
 
-This project is a part of the Full Stack Software Developer Diploma at [Code Institute](https://codeinstitute.net/).
+This project is part of the "Full Stack Software Developer Diploma" at [Code Institute](https://codeinstitute.net/).
 
 Mahmoud Tantouri 2021.
 
