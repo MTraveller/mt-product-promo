@@ -197,7 +197,7 @@ The video on the front page has a poster for two things;
 1. controlling the first view.
 2. on mobile, the video won't load as on desktop, and a genetic circle with a play button would appear.
 
-| Poster HTML Tag | Video Poster Image |
+| Poster HTML Attribute | Video Poster Image |
 |:--------:|:--------:|
 | ![PH-TAG](https://github.com/MTraveller/mt-product-promo/blob/4c58b7dd29bbba49c7cf4fa318bee1f693a1b653/rm-img/poster-video-html-tag.jpg) | ![POSTER](https://github.com/MTraveller/mt-product-promo/blob/3b1b055e2354cd18f66f05593b67fd8b4a02c246/rm-img/poster-for-videos.jpg) |
 
