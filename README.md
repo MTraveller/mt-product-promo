@@ -216,11 +216,11 @@ There were four errors for the Instagram embed code on the contact page and had 
 
 Thanks to @Stephen_5p_lead on slack for pointing out the small CSS error on the @media query with 425px and below, where I edited the main style selector with an ID added and overwrote the media queries below it.
 
-![CSS-Overwritten]()
+![CSS-Overwritten](https://github.com/MTraveller/mt-product-promo/blob/5531c4bfbd826a69bec400896200858af200498e/rm-img/css-overwritten.jpg)
 
 I added the same ID to the media queries; that resolved the issue.
 
-![CSS-Bug-Fixed]()
+![CSS-Bug-Fixed](https://github.com/MTraveller/mt-product-promo/blob/62daaed8e05be26942f3bebd6481b2d633162233/rm-img/css-overwritten-fixed.jpg)
 
 ## Validators
 
