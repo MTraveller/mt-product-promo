@@ -22,17 +22,22 @@ Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/i
         2. As a Returning Visitor, I want to share the website with people on social media.
 
 -   ### Design
+
     -   #### Colour Scheme
+    
         -   The two main colors used are black ![black](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/000000.jpg) #000000 and white ![white](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/ffffff.jpg) #FFFFFF with two sub-colors light blue ![light-blue](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/2196f3.jpg) #2196F3 and light green ![light-green](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/337a88.jpg) #337A88.
+
     -   #### Typography
         -   The Titillium Web font is the main font used throughout the whole website, with Arial, Helvetica, and Sans Serif as the fallback font in the case, for any reason, the font isn't being imported into the site correctly. Titillium Web is a clean font and pleasant font to read.
 
         ![TitilliumWeb](https://github.com/MTraveller/mt-product-promo/blob/42c47b5019c52e73fa40ee9bce98758080b1e45e/readme-images/titillium-web-font.jpg)
 
     -   #### Imagery & Video
+
         -   Imagery & video is important. The large background hero image is designed to be striking and catch the user's attention with the headline on the forefront. It is modern and sleek.
 
 *   ### Wireframes
+
     -   Mockflow.com was used to design the initial layout for desktop and mobile-sized screens.
 
         | Desktop | Mobile |
