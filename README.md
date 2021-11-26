@@ -10,7 +10,7 @@
     * [Strategy](#strategy)
 * [Development](#development)
     * [HTML](#html)
-    * [CSS & Critical CSS](#css-critical-css)
+    * [CSS & Critical CSS](#css--critical-css)
     * [Images](#images)
     * [Videos](#videos)
     * [Table](#table)
@@ -58,6 +58,14 @@ The colors used to produce the website are White, Black, Light Blue, and Green. 
 
 The header and footer are the same throughout the website. The pitch of the website is clear and to the point as it is priority #1.
 
+The header has a different background image for each page; the header has a dark overlay color set to 60% to make the h1 heading stand out.
+
+![Header](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/header.jpg)
+
+The navbar with 3-links which on "hover" and the current page highlights. The website incorporates a simple CSS method to highlight the links.
+
+![Navbar](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/navbar.jpg)
+
 Wireframing this project, mockflow.com was used to design the initial layout for desktop and mobile-sized screens.
 
 | Desktop | Mobile |
@@ -87,14 +95,6 @@ The website gives people information in more detail focused on the specific prod
 ### HTML
 
 The website is purely in `HTML` and  `CSS` technologies, with no Javascript. The website is very lightweight and uses next-gen images and videos.
-
-The website has a header with a different background image for each page; the header has a dark overlay color set to 60% to make the h1 heading stand out.
-
-![Header](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/header.jpg)
-
-The navbar with 3-links which on "hover" and the current page highlights. The website incorporates a simple CSS method to highlight the links.
-
-![Navbar](https://github.com/MTraveller/mt-product-promo/blob/cf7fca20041fcb57f4034bf3fd174c1e5b3d7fd1/rm-img/navbar.jpg)
 
 The website uses tags such as `<header>` `<nav>` `<main>` `<article>` `<section>` `<aside>` `<footer>` `<div>` `<form>` `<input>` `<table>` `<tbody>` `<tr>` `<td>` `<span>` `<h1>` `<h2>` `<h3>` `<h4>` and `<p>`.
 
