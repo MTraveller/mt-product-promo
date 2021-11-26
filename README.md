@@ -23,10 +23,10 @@ Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/i
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colors used are black ![black](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/000000.jpg) #000000 and white ![white](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/ffffff.jpg) #FFFFFF with two sub-colors light blue ![light-blue](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/2196f3.jpg) #2196f3 and light green ![light-green](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/337a88.jpg) #337a88.
+        -   The two main colors used are black ![black](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/000000.jpg) #000000 and white ![white](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/ffffff.jpg) #FFFFFF with two sub-colors light blue ![light-blue](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/2196f3.jpg) #2196F3 and light green ![light-green](https://github.com/MTraveller/mt-product-promo/blob/583153bb7f5a3c64eba0927eb068671634994dd1/readme-images/337a88.jpg) #337A88.
     -   #### Typography
         -   The Titillium Web font is the main font used throughout the whole website, with Arial, Helvetica, and Sans Serif as the fallback font in the case, for any reason, the font isn't being imported into the site correctly. Titillium Web is a clean font and pleasant font to read.
-        
+
         ![TitilliumWeb](https://github.com/MTraveller/mt-product-promo/blob/42c47b5019c52e73fa40ee9bce98758080b1e45e/readme-images/titillium-web-font.jpg)
 
     -   #### Imagery & Video
@@ -130,6 +130,22 @@ Based on the real world, Nike Metcon 7 training shoes. The website showcases the
 The website gives people information in more detail focused on the specific product without distraction for better judgment and ultimately to purchase the product.
 
 ## Development
+
+#### Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Wikipedia's HTML5 page")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Wikipedia's CSS3 page")
+
+### Frameworks, Libraries & Programs Used
+
+1. [Google Fonts:](https://fonts.google.com/)
+    - I used Google fonts to download the 'Titillium Web' to the assets folder and called upon it in the style-minified.css file, which appears on all pages throughout the project.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the project's code after being pushed from Git.
+1. [Mockflow:](https://mockflow.com/)
+    - Mockflow was used to create the [wireframes](#wireframes) during the design process.
 
 ### HTML
 
