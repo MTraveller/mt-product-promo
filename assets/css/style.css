@@ -405,7 +405,7 @@ figcaption {
         display: block;
     }
 }
-article > span, footer > a {
+#images article > span, #images footer > a {
     display: block;
     width: 100%;
     height: 3rem;
