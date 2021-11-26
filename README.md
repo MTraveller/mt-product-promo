@@ -209,7 +209,7 @@ The simple table at the bottom of the page has overflow-x set to auto so that a 
 
 ### Form
 
-On the contact.html page, there's a form, nothing special; a bit of styling to make it look appropriate and aligned with the website as a whole. The `<input>`s do not have labels; instead, use the placeholder attribute to make it look smarter and cleaner.
+On the contact.html page, there's a form, nothing special; a bit of styling to make it look appropriate and aligned with the website as a whole. The `<input>`s do not have labels; instead, use the placeholder attribute to make it look smarter and cleaner. The form has the email field set to required and checks for the "@" symbol in the email address entered to check if valid or not. The text area is set to required as well. 
 
 | Form | Placeholder |
 |:--------:|:--------:|
