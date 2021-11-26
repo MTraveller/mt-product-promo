@@ -34,7 +34,7 @@ Project URL: [View live project](https://mtraveller.github.io/mt-product-promo/i
 
     -   #### Imagery & Video
 
-        -   Imagery & video is important. The large background hero image is designed to be striking and catch the user's attention with the headline on the forefront. It is modern and sleek.
+        -   Imagery & video is important. The large background hero image is designed to be serious and catch the user's attention with the headline on the forefront. It is modern and sleek.
 
 *   ### Wireframes
 
@@ -187,8 +187,6 @@ Images live inside the `<picture>` tag within the `<figure>` tag and use the nex
 ![IMAGES](https://github.com/MTraveller/mt-product-promo/blob/9e523a8c9a96009ebb20e030a9681a895487724d/rm-img/images-inside-figure.jpg)
 
 The header does not utilize the `<picture>` tag as I set the background image with CSS instead merely for educational purposes. If I wanted to use next-gen images, I would use the Modernizr JS library to check which features the visitor's browser has. Then dynamically inject classes based on the information retrieved and target those classes with CSS for either next-gen or classic image types.
-
-As for this project, I used only HTML and CSS except for the Instagram embed, which has JS in its embed code.
 
 ### Videos
 
